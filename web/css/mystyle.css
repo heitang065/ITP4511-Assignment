@@ -1,0 +1,145 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 2, 2022, 7:58:28 AM
+    Author     : Hei
+*/
+
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+body {
+    overflow: hidden;
+    background-color: #d3d3e3;
+}
+
+#maincontainer{
+    overflow: scroll;
+    padding:0;
+    margin: 0;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+#menucolumn{
+    width: 250px; /*Width of left column*/
+    min-height:110vh;
+    background-color: #3c3cde;
+}
+
+#contentwrapper{
+    width: 100%;
+    min-height: 100%;
+}
+
+#contentcolumn{
+    width: 100%;
+    min-height: 100%;
+}
+
+li {
+    list-style: none;
+    color: #ffffff;
+    padding: 30px 0 30px 30px;
+}
+
+a:link {
+    color: #000000;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.innertube{
+    margin-top: 5%;
+}
+
+#navbar li a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#navbar li:hover {
+    cursor: pointer;
+    background: #cccccc;
+    opacity: 0.7;
+}
+
+#navbar li a:visited {
+    color: #ffffff;
+}
+
+#navbar li a:hover {
+    color: #000033;
+}
+
+input[type=submit]{
+    margin: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 11pt;
+    border-radius: 15px;
+    background-color: gainsboro;
+}
+
+input[type=submit]:hover{
+    padding:5px 10px;
+    font-size: 11pt;
+    background-color: cadetblue;
+}
+
+input[type=text]{
+    font-size: 12pt;
+}
+
+input[type=password]{
+    font-size: 12pt;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+h2, h3 {
+    margin: 15px 0 15px 0;
+}
+
+#usertable {
+    border:1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#usertable td, #usertable th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#usertable tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#usertable tr:hover {
+    background-color: #ddd;
+}
+
+#usertable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
